@@ -76,6 +76,10 @@ img.team-members {
   width: 100%;
 }
 
+img.legacy {
+  width: 75%;
+}
+
 .icons-wrapper {
   width: 90%;
   margin: 0 auto;
