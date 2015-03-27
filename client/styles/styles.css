@@ -61,6 +61,7 @@ textarea.form-description-control {
 
 button.idea-submit-button {
   margin-top: 5px;
+  display: inline;
 }
 
 .row {
@@ -501,6 +502,30 @@ a.glint-logo-icon:link{
 
 .details.modal-footer button:hover {
   color: #eee;
+}
+
+.invite-input {
+  width: 100%;
+}
+
+.invite-align {
+  display: inline;
+  margin-top: 2px;
+}
+
+.invite-submit-button {
+  margin-top: 5px;
+}
+
+/*
+ ***********************
+ * Invite button align
+ ***********************
+ */
+
+.button-align {
+  display: inline;
+  vertical-align: middle;
 }
 
 /*

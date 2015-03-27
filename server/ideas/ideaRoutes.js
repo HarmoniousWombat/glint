@@ -10,4 +10,7 @@ module.exports = function (app) {
     app.route('/')
       .get(ideaController.allIdeas)
       .post(ideaController.newIdea);
+    // Routes post requests to /invite sending an invite email to the submitted email addresses.
+    app.route('/invite')
+      .post(ideaController.sendInvite);
 };

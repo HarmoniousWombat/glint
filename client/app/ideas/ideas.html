@@ -18,6 +18,10 @@
     </div>
 
     <button type="submit" class="btn btn-default idea-submit-button animated fadeInUp">Submit</button>
+    <span class="controller-decrease" ng-controller="InviteCtrl as dctrl">
+      <button type="submit" ng-click="dctrl.open(ictrl.invite)" class="btn btn-default invite-submit-button animated fadeInUp">Invite collaborators</button>
+    </span>    
+
   </form>
 </div>
 
