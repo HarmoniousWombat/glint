@@ -151,7 +151,7 @@
       function enter(person){
         var target = person.currentTarget.id;
         $('.legacy').attr('src', function(){
-          $(this).attr('src', 'assets/team-'+this.id+'-'+target+'.jpg')
+          $(this).attr('src', 'assets/team-'+this.id+target+'.jpg')
         });
       }
 
